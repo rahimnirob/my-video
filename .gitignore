@@ -1,0 +1,23 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Ignore local render/output artifacts.
+out
+
+# Keep large media files local and out of GitHub.
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.mp3
+*.wav
+*.ogg
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.psd
+*.pdf
