@@ -471,7 +471,7 @@ const BillBoardStoryboard: React.FC = () => {
                 }}
               >
                 <OffthreadVideo
-                  src={staticFile('billboard/lv_0_20260624023044.mp4')}
+                  src={staticFile('billboard broadcast (1).mp4')}
                   style={{
                     position: 'absolute',
                     inset: '-10% 0 0 0',
@@ -775,7 +775,7 @@ const BillBoardStoryboard: React.FC = () => {
                 }}
               >
                 <OffthreadVideo
-                  src={staticFile('billboard/lv_0_20260624023044.mp4')}
+                  src={staticFile('billboard broadcast (1).mp4')}
                   style={{
                     position: 'absolute',
                     inset: '-10% 0 0 0',
@@ -1200,7 +1200,7 @@ const BillBoardStoryboard: React.FC = () => {
                 }}
               >
                 <OffthreadVideo
-                  src={staticFile('billboard/lv_0_20260624023044.mp4')}
+                  src={staticFile('billboard broadcast (1).mp4')}
                   style={{
                     position: 'absolute',
                     inset: '-10% 0 0 0',

@@ -215,7 +215,7 @@ const Scene5Player: React.FC<{ frame: number }> = ({ frame: f }) => {
           >
             {/* Video — shifted up to crop watermark from top */}
             <OffthreadVideo
-              src={staticFile('billboard/lv_0_20260624023044.mp4')}
+              src={staticFile('billboard broadcast (1).mp4')}
               style={{
                 position: 'absolute',
                 width: '100%',
