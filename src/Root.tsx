@@ -14,6 +14,7 @@ import { AresIntro, TOTAL_FRAMES as ARES_FRAMES } from './ares';
 import { FounderSignalIntro } from './foundersignal/FounderSignalIntro';
 import { TOTAL_FRAMES as FSIGNAL_FRAMES } from './foundersignal/foundersignal-tokens';
 import { BillboardPromo, TOTAL_FRAMES as PROMO_FRAMES } from './avenir/broadcast/BillboardPromo';
+import BillBoardStoryboard, { TOTAL_FRAMES as STORYBOARD_FRAMES } from './avenir/broadcast/BillboardStoryboard';
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -50,6 +51,15 @@ export const RemotionRoot: React.FC = () => {
         id="BillboardPromo"
         component={BillboardPromo}
         durationInFrames={PROMO_FRAMES}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+      {/* BillboardStoryboard — upgraded 28s storyboard composition based on the Ares/Ella template language. */}
+      <Composition
+        id="BillboardStoryboard"
+        component={BillBoardStoryboard}
+        durationInFrames={STORYBOARD_FRAMES}
         fps={30}
         width={1920}
         height={1080}
