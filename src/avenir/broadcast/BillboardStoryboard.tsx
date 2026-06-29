@@ -5,6 +5,7 @@ import {
   interpolate,
   staticFile,
   useCurrentFrame,
+  useVideoConfig,
 } from 'remotion';
 import { ease, bbFill } from './palette';
 import { mono, sora, manrope } from '../tokens';
@@ -50,7 +51,9 @@ const ri = (
 export const TOTAL_FRAMES = 1000;
 
 const BillBoardStoryboard: React.FC = () => {
-  const f = useCurrentFrame();
+  const f_real = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const f = f_real * (30 / fps);
 
   // ── S2: Introducing ─────────────────────────────────────────────────────────
   const introEnter = ri(f, 155, 178, 0, 1);

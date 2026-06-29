@@ -59,8 +59,8 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="BillboardStoryboard"
         component={BillBoardStoryboard}
-        durationInFrames={STORYBOARD_FRAMES}
-        fps={30}
+        durationInFrames={STORYBOARD_FRAMES * 2}
+        fps={60}
         width={1920}
         height={1080}
       />
